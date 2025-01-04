@@ -4,7 +4,7 @@ import useReelStore from "../../store/reelStore";
 import { useEffect, useState } from "react";
 import { collection, getDocs, updateDoc, doc } from "firebase/firestore";
 import { firestore } from "../../firebase/firebase";
-import ReelCommentsModal from "../Reels/ReelCommentsModal";
+import ReelCommentsModal from "./ReelCommentsModal";
 import useAuthStore from "../../store/authStore";
 
 const ReelsView = () => {
